@@ -1,5 +1,3 @@
-#curl -url na stronie link
-
 class App
   constructor: ->
     @useCase = new UseCase()
@@ -45,7 +43,7 @@ class ServerSide
   loadUsers: =>
     $.ajax(
           type: "GET"
-          url: "http://localhost:3000/users.json"
+          url: "http://backend-pikaj.shellyapp.com/users.json"
           success: (usersJson) =>
             console.log("success")
             console.log(usersJson)

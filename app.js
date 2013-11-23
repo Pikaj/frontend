@@ -110,7 +110,7 @@
       var _this = this;
       return $.ajax({
         type: "GET",
-        url: "http://localhost:3000/users.json",
+        url: "http://backend-pikaj.shellyapp.com/users.json",
         success: function(usersJson) {
           console.log("success");
           console.log(usersJson);
