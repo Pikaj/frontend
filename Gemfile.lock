@@ -7,6 +7,9 @@ GEM
     rack-protection (1.5.1)
       rack
     rake (10.1.0)
+    shelly-dependencies (0.2.3)
+      rake
+      thin
     sinatra (1.4.4)
       rack (~> 1.4)
       rack-protection (~> 1.4)
@@ -22,5 +25,6 @@ PLATFORMS
 
 DEPENDENCIES
   rake
+  shelly-dependencies
   sinatra
   thin
